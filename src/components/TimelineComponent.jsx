@@ -32,9 +32,7 @@ const TimelineComponent = () => {
           <h1 className="text-[44px] font-[500] max-[480px]:text-[32px]">
             My <span className="text-[#755BB4]">Education & Career</span> Timeline
           </h1>
-          <p className="text-[14px] dark:text-white text-black font-[500] text-center max-[480px]:text-justify">
-            {`A career timeline is a visual representation or written summary of an individual's professional journey over time. It typically includes key milestones, achievements, positions held, educational accomplishments, and other significant events related to a person's career. Career timelines are used to provide a concise overview of one's career progression and can be helpful for job seekers, professionals, or individuals reflecting on their career path.`}
-          </p>
+          <br/>
         </div>
         <div className="mt-5 mx-auto w-full">
           <Timeline
