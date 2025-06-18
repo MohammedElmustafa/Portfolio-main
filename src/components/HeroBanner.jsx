@@ -30,7 +30,7 @@ const HeroBanner = () => {
               </div>
             ))}
           </div>
-          <a href="/images/Ashutosh_Kewat_2024.pdf" download>
+          <a href="/images/resume.pdf" download>
             <button
               type="button"
               className='text-[14px] mt-5 max-w-max p-[8px] max-[480px]:p-[5px] bg-[#755BB4] text-center text-[#fff] rounded'
