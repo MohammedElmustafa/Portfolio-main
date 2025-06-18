@@ -1,4 +1,4 @@
-import EditExperience from "@/components/EditExperience";
+import EditExperience from "@/components/Editexperience";
 import React from "react";
 
 const Page = ({ params }) => {
