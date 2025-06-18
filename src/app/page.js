@@ -10,7 +10,6 @@ export default function Home() {
       <Navbar />
       <section className='w-full h-full'>
         <HeroBanner />
-        <Skills />
         <TimelineComponent />
         <BlogSection />
       </section>
