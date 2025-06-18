@@ -66,7 +66,7 @@ const Page = ({ params }) => {
           <Link href={data.githubLink} target='_blank' className='bg-[#755BB4] text-center text-[14px] font-[600] border-[#fff] p-3 max-w-[250px] px-6 rounded-[20px] text-white max-[890px]:w-full max-[890px]:max-w-full'>
             Soruce Code - Github
           </Link>
-          <Link href="" target="" className='bg-[#755BB4] text-center text-[14px] font-[600] border-[#fff] p-3 max-w-[250px] px-6 rounded-[20px] text-white max-[890px]:w-full max-[890px]:max-w-full'>
+          <Link href={data.liveLink} target="" className='bg-[#755BB4] text-center text-[14px] font-[600] border-[#fff] p-3 max-w-[250px] px-6 rounded-[20px] text-white max-[890px]:w-full max-[890px]:max-w-full'>
             Live Link
           </Link>
         </div>
