@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.glass {
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.4px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar {
+  width: 0.5px;
+}
+
+.blurspot {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: -21.83px;
+  right: 0;
+  background-color: rgba(252, 22, 91, 1);
+  filter: blur(3500px);
+}
+
+.blurspot2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 57.48px;
+  left: 210.15px;
+  background-color: rgba(22, 252, 210, 1);
+  filter: blur(3500px);
+}
+
+.blurspot3 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(27, 119, 228, 1);
+  filter: blur(3500px);
+}
+
+@media screen and (max-width: 480px) {
+  .blurspot {
+    width: 150px;
+    height: 150px;
+    filter: blur(300px);
+  }
+
+  .blurspot2 {
+    width: 150px;
+    height: 150px;
+    filter: blur(300px);
+  }
+
+  .blurspot3 {
+    width: 150px;
+    height: 150px;
+    filter: blur(300px);
+  }
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 0.5rem !important;
+  color: black !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 100%;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  letter-spacing: 0;
+  line-height: 0 !important;
+  border: 1px;
+}
+
+.dark .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white !important;
+}
+
+.dark .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input ::placeholder {
+  color: white !important;
+}
+
+.dark .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  border: 1px solid #A78BFA;
+}
+
+.dark .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .css-ha3bif-MuiTimelineItem-root:before {
+    padding: 0 !important;
+  }
+}
